@@ -14,7 +14,7 @@ let album = [
   { songName: "Fifth Song" },
 ];
 
-playBtn.addEventListener("click", function () {
+playBtn.addEventListener("Click", function () {
   if (song.paused || song.currentTime <= 0) {
     song.play();
     gif.style.opacity = "1";
